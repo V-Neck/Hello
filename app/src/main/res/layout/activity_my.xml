@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backer"
+    style="@style/BBackground"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="1.0"
+    android:background="@drawable/butt">
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_height="fill_parent"
+        android:layout_weight=".5"
+        android:layout_width="0dp"
+        android:hint="@string/edit_message"/>
+
+    <Button
+        android:id="@+id/textbox3"
+        android:layout_height="fill_parent"
+        android:layout_weight=".5"
+        android:layout_width="0dip"
+        android:textSize="12sp"
+        android:onClick=""/>
+</LinearLayout>

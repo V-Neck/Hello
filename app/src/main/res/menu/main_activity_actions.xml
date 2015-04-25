@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+            android:screenOrientation="landscape">
+    <item android:title="Wow"
+        android:showAsAction="ifRoom"
+        style="@style/BBackground"/>
+    <Button
+        style="@style/BBackground"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:text="@string/button_sent"
+        android:onClick="sendMessage"
+        />
+</menu>
